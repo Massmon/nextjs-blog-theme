@@ -7,6 +7,20 @@ export default function Header({ name }) {
       <p className="text-2xl text-center dark:text-white">
         <Link href="/">{name}</Link>
       </p>
+      <nav className="flex justify-center gap-6 mt-4">
+        <Link
+          href="/blog"
+          className="text-sm font-semibold uppercase tracking-wider opacity-60 hover:opacity-100 transition dark:text-white"
+        >
+          Blog
+        </Link>
+        <Link
+          href="/resources"
+          className="text-sm font-semibold uppercase tracking-wider opacity-60 hover:opacity-100 transition dark:text-white"
+        >
+          Resources
+        </Link>
+      </nav>
     </header>
   );
 }

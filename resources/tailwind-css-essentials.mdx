@@ -1,0 +1,42 @@
+---
+title: Tailwind CSS Essentials
+description: A quick reference for using Tailwind CSS to build modern, responsive user interfaces.
+date: '2026-02-20'
+category: Reference
+---
+
+Tailwind CSS is a utility-first CSS framework that lets you build custom designs directly in your markup. Instead of writing custom CSS, you compose designs using pre-built utility classes.
+
+## Core concepts
+
+- **Utility-first** — Style elements with small, single-purpose classes
+- **Responsive design** — Use breakpoint prefixes like `sm:`, `md:`, `lg:`
+- **Dark mode** — Add `dark:` prefix for dark mode styles
+- **Hover and focus states** — Use `hover:`, `focus:`, and other state modifiers
+
+## Common patterns
+
+### Centering content
+
+```html
+<div class="flex items-center justify-center min-h-screen">
+  <p>Centered content</p>
+</div>
+```
+
+### Responsive grid
+
+```html
+<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+</div>
+```
+
+## Resources
+
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Tailwind UI Components](https://tailwindui.com)
+- [Headless UI](https://headlessui.com) — Unstyled, accessible components
+- [Heroicons](https://heroicons.com) — Icons designed for Tailwind CSS
